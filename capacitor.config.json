@@ -1,6 +1,6 @@
 {
   "appId": "com.suru.app",
-  "appName": "SURU",
+  "appName": "Scribles",
   "webDir": "dist",
   "plugins": {
     "StatusBar": {
