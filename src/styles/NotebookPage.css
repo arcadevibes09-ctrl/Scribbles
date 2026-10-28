@@ -1,0 +1,107 @@
+.page-container { margin-top: 1rem; }
+
+.notebook-page {
+  line-height: 1.7;
+  min-height: 70vh;
+  padding: 1rem 0;
+  user-select: text;
+  -webkit-user-select: text;
+}
+
+.text-content { font-size: 1em; color: var(--text-main); }
+
+/* Glassy Glossary Link */
+.highlighted-word {
+  color: var(--accent-sage);
+  cursor: pointer;
+  border-bottom: 1px solid rgba(152, 171, 145, 0.4);
+  font-weight: bold;
+  transition: 0.2s;
+}
+.highlighted-word:hover {
+  background: rgba(152, 171, 145, 0.1);
+  border-bottom: 1px solid var(--accent-sage);
+  border-radius: 3px;
+}
+
+/* Bold text */
+.bold-text { font-weight: bold; color: #ffffff; letter-spacing: 0.3px; }
+
+/* Highlighter - Soft Sage */
+.highlighter {
+  background-color: rgba(152, 171, 145, 0.15);
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: var(--accent-sage);
+}
+
+/* Glassmorphism Definition Box */
+.note-box {
+  background: var(--glass-surface);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--glass-border);
+  border-left: 3px solid var(--accent-blue);
+  padding: 16px 20px;
+  border-radius: 12px;
+  margin: 20px 0;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+  font-size: 1.05em;
+  color: var(--text-main);
+}
+
+/* Aesthetic Banner Headings */
+.banner-heading { 
+  display: flex; 
+  align-items: center;
+  padding: 8px 0; 
+  margin: 3rem 0 1.2rem 0; 
+  font-size: 1.6em; 
+  font-weight: 700; 
+  letter-spacing: 0.5px; 
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 2.8rem;
+}
+
+.page-num {
+  background: #070709 !important;
+  border: 1px solid rgba(255, 255, 255, 0.085) !important;
+  border-radius: 14px !important;
+  corner-shape: superellipse(1.35);
+  color: #9e9ea6 !important;
+  padding: 8px 15px !important;
+  font-size: 0.78rem !important;
+  font-weight: 500 !important;
+  cursor: pointer;
+  box-shadow:
+    0 6px 16px rgba(0, 0, 0, 0.65),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08) !important;
+  transition:
+    transform 0.14s cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 0.18s ease,
+    color 0.18s ease,
+    background 0.18s ease !important;
+}
+
+.page-num:hover {
+  border-color: rgba(255, 255, 255, 0.22) !important;
+  color: #f4f4f6 !important;
+}
+
+.page-num.active {
+  background: #101014 !important;
+  border-color: rgba(255, 255, 255, 0.32) !important;
+  color: #ffffff !important;
+  font-weight: 600;
+  box-shadow:
+    0 8px 20px rgba(0, 0, 0, 0.8),
+    inset 0 1px 0 rgba(255, 255, 255, 0.18) !important;
+}
+
+

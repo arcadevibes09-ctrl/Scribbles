@@ -1,0 +1,15 @@
+{
+  "appId": "com.suru.app",
+  "appName": "SURU",
+  "webDir": "dist",
+  "plugins": {
+    "StatusBar": {
+      "overlaysWebView": true,
+      "style": "DARK",
+      "backgroundColor": "#00000000"
+    },
+    "SystemBars": {
+      "insetsHandling": "disable"
+    }
+  }
+}

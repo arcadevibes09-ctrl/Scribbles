@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.pre-restore-backup*
+android/build/
+android/app/build/
+.env
+.DS_Store
